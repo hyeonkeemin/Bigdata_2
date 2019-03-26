@@ -71,7 +71,7 @@ predict_20 = cbind(svm_predict, real_lwr=as.numeric(test_df$price)*0.8, real_up=
 
 tf= 0 # 정답률 구하기 위한거,
 
-result_5 = cbind(predict_5, tf) 
+result_5 = cbind(predict_5, tf)
 result_10 = cbind(predict_10, tf)
 result_20 = cbind(predict_20, tf)
 
